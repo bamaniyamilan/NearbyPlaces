@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (permissionsToRequest.size() > 0) {
-                requestPermissions(permissionsToRequest.toArray(new String[permissionsToRequest.size()]), ALL_PERMISSIONS_RESULT);
+                requestPermissions(permissionsToRequest.toArray(new  String[permissionsToRequest.size()]), ALL_PERMISSIONS_RESULT);
             } else {
                 fetchLocation();
             }
